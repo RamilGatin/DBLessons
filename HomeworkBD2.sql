@@ -5,4 +5,4 @@ select
 (array['Ramil', 'Marat', 'Ruslan', 'Arthur', 'Amir', 'Jonny','Kamilla'
 ])[ceil(random()*7)],
 89012345678,
-(random()*100) from generate_series(1,10);
+(random()*100) from generate_series(1,1000000);
